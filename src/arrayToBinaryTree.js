@@ -42,8 +42,8 @@ const arrayToBST = (nums, left = 0, right = nums.length - 1) => {
  *
  * @desc This will generate a Tree data structure
  * @param {number} value - Value
- * @param {number} left - Left value will lower than parent
- * @param {number} right - Right value will higher than parent
+ * @param {number} left - Left value will be lower than parent
+ * @param {number} right - Right value will be higher than parent
  */
 function TreeNode(value, left, right) {
   this.value = (value === undefined ? 0 : value)
