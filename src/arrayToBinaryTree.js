@@ -51,5 +51,5 @@ function TreeNode(value, left, right) {
   this.right = (right === undefined ? null : right)
 }
 
-console.log("Array", nums)
-console.log(arrayToBST(nums))
+console.log("Array", nums) //This will print the array generated
+console.log(arrayToBST(nums)) //This will print the Binary Tree
